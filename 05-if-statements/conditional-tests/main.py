@@ -1,11 +1,6 @@
 car = 'subaru' 
+print(f"I predict {car == 'subaru'}.") 
+print(f"{car.title()}") 
 
-if car == "subaru":
-    print("I predict True.") 
-    print(car) 
-
-
-if car == "audi":
-    print("\nI predict False.") 
-    print('audi')
- 
+print(f"\nI predict {car == 'audi'}.") 
+print(f"{'audi'.title()}") 
